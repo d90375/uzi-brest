@@ -1,0 +1,15 @@
+{
+  "name": "uzi-health",
+  "version": "1.0.0",
+  "description": "uzi-health-brest",
+  "main": "index.js",
+  "scripts": {
+    "build" : "tailwindcss -i ./css/input.css -o ./dist/output.css ",
+    "watch" : "tailwindcss -i ./css/input.css -o ./dist/output.css --watch"
+  },
+  "author": "d90375",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
